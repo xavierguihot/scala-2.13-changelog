@@ -98,6 +98,8 @@ import scala.util.chaining._
 def isPalindrome(i: Int) = i.toString.pipe(s => s == s.reverse)
 x pipe h pipe g pipe f // f(g(h(x)))
 
+val s"Hello, $name" = "Hello, James" // name: String = James
+
 // Where we used to do `20 + Random.nextInt(11)`:
 Random.between(20, 30) // in [20, 30[
 
