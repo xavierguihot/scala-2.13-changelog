@@ -1,4 +1,4 @@
-# Scala 2.13 new features
+# Scala 2.13 new features - changelog
 
 To play with a Scala 2.13 REPL:
 
