@@ -3,8 +3,7 @@
 To play with a Scala 2.13 REPL:
 
     $ sbt
-    > set resolvers += "pr" at "https://scala-ci.typesafe.com/artifactory/scala-pr-validation-snapshots/"
-    > set scalaVersion := "2.13.0-pre-8f3a05a-SNAPSHOT"
+    > set scalaVersion := "2.13.0"
     > console
 
 ---
